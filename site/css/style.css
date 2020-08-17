@@ -1,0 +1,3543 @@
+﻿@font-face {
+  font-family: 'TT Norms ExtraBold';
+  src: url('../fonts/TTNorms-ExtraBoldItalic.eot');
+  src: local('../fonts/TT Norms ExtraBold Italic'), local('TTNorms-ExtraBoldItalic'), url('../fonts/TTNorms-ExtraBoldItalic-1.eot') format('embedded-opentype'), url('../fonts/TTNorms-ExtraBoldItalic.woff') format('woff'), url('../fonts/TTNorms-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'TT Norms';
+  src: url('../fonts/TTNorms-Bold.eot');
+  src: local('TT Norms Bold'), local('TTNorms-Bold'), url('../fonts/TTNorms-Bold-1.eot') format('embedded-opentype'), url('../fonts/TTNorms-Bold.woff') format('woff'), url('../fonts/TTNorms-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Norms';
+  src: url('../fonts/TTNorms-Thin.eot');
+  src: local('TT Norms Thin'), local('TTNorms-Thin'), url('../fonts/TTNorms-Thin-1.eot') format('embedded-opentype'), url('../fonts/TTNorms-Thin.woff') format('woff'), url('../fonts/TTNorms-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Norms';
+  src: url('../fonts/TTNorms-Regular.eot');
+  src: local('TT Norms Regular'), local('TTNorms-Regular'), url('../fonts/TTNorms-Regular-1.eot') format('embedded-opentype'), url('../fonts/TTNorms-Regular.woff') format('woff'), url('../fonts/TTNorms-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Norms Thin';
+  src: url('../fonts/TTNorms-ThinItalic.eot');
+  src: local('TT Norms Thin Italic'), local('TTNorms-ThinItalic'), url('../fonts/TTNorms-ThinItalic-1.eot') format('embedded-opentype'), url('../fonts/TTNorms-ThinItalic.woff') format('woff'), url('../fonts/TTNorms-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'TT Norms';
+  src: url('../fonts/TTNorms-Italic.eot');
+  src: local('TT Norms Italic'), local('TTNorms-Italic'), url('../fonts/TTNorms-Italic-1.eot') format('embedded-opentype'), url('../fonts/TTNorms-Italic.woff') format('woff'), url('../fonts/TTNorms-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'TT Norms';
+  src: url('../fonts/TTNorms-Heavy.eot');
+  src: local('TT Norms Heavy'), local('TTNorms-Heavy'), url('../fonts/TTNorms-Heavy-1.eot') format('embedded-opentype'), url('../fonts/TTNorms-Heavy.woff') format('woff'), url('../fonts/TTNorms-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Norms';
+  src: url('../fonts/TTNorms-Light.eot');
+  src: local('TT Norms Light'), local('TTNorms-Light'), url('../fonts/TTNorms-Light-1.eot') format('embedded-opentype'), url('../fonts/TTNorms-Light.woff') format('woff'), url('../fonts/TTNorms-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Norms Black';
+  src: url('../fonts/TTNorms-BlackItalic.eot');
+  src: local('TT Norms Black Italic'), local('TTNorms-BlackItalic'), url('../fonts/TTNorms-BlackItalic-1.eot') format('embedded-opentype'), url('../fonts/TTNorms-BlackItalic.woff') format('woff'), url('../fonts/TTNorms-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'TT Norms';
+  src: url('../fonts/TTNorms-ExtraLight.eot');
+  src: local('TT Norms ExtraLight'), local('TTNorms-ExtraLight'), url('../fonts/TTNorms-ExtraLight-1.eot') format('embedded-opentype'), url('../fonts/TTNorms-ExtraLight.woff') format('woff'), url('../fonts/TTNorms-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Norms Light';
+  src: url('../fonts/TTNorms-LightItalic.eot');
+  src: local('TT Norms Light Italic'), local('TTNorms-LightItalic'), url('../fonts/TTNorms-LightItalic-1.eot') format('embedded-opentype'), url('../fonts/TTNorms-LightItalic.woff') format('woff'), url('../fonts/TTNorms-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'TT Norms ExtraLight';
+  src: url('../fonts/TTNorms-ExtraLightItalic.eot');
+  src: local('TT Norms ExtraLight Italic'), local('TTNorms-ExtraLightItalic'), url('../fonts/TTNorms-ExtraLightItalic-1.eot') format('embedded-opentype'), url('../fonts/TTNorms-ExtraLightItalic.woff') format('woff'), url('../fonts/TTNorms-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'TT Norms Bold';
+  src: url('../fonts/TTNorms-BoldItalic.eot');
+  src: local('TT Norms Bold Italic'), local('TTNorms-BoldItalic'), url('../fonts/TTNorms-BoldItalic-1.eot') format('embedded-opentype'), url('../fonts/TTNorms-BoldItalic.woff') format('woff'), url('../fonts/TTNorms-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'TT Norms';
+  src: url('../fonts/TTNorms-Medium.eot');
+  src: local('TT Norms Medium'), local('TTNorms-Medium'), url('../fonts/TTNorms-Medium-1.eot') format('embedded-opentype'), url('../fonts/TTNorms-Medium.woff') format('woff'), url('../fonts/TTNorms-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Norms';
+  src: url('../fonts/TTNorms-Black.eot');
+  src: local('TT Norms Black'), local('TTNorms-Black'), url('../fonts/TTNorms-Black-1.eot') format('embedded-opentype'), url('../fonts/TTNorms-Black.woff') format('woff'), url('../fonts/TTNorms-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Norms Medium';
+  src: url('../fonts/TTNorms-MediumItalic.eot');
+  src: local('TT Norms Medium Italic'), local('TTNorms-MediumItalic'), url('../fonts/TTNorms-MediumItalic-1.eot') format('embedded-opentype'), url('../fonts/TTNorms-MediumItalic.woff') format('woff'), url('../fonts/TTNorms-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'TT Norms Heavy';
+  src: url('../fonts/TTNorms-HeavyItalic.eot');
+  src: local('TT Norms Heavy Italic'), local('TTNorms-HeavyItalic'), url('../fonts/TTNorms-HeavyItalic-1.eot') format('embedded-opentype'), url('../fonts/TTNorms-HeavyItalic.woff') format('woff'), url('../fonts/TTNorms-HeavyItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'TT Norms';
+  src: url('../fonts/TTNorms-ExtraBold.eot');
+  src: local('TT Norms ExtraBold'), local('TTNorms-ExtraBold'), url('../fonts/TTNorms-ExtraBold-1.eot') format('embedded-opentype'), url('../fonts/TTNorms-ExtraBold.woff') format('woff'), url('../fonts/TTNorms-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+.header {
+  background: url("../img/header_bg_1.png"), linear-gradient(0deg, #121177 0%, #000101 100%);
+  min-height: 760px;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+@media (max-width: 1700px) {
+  .header {
+    background-position: 300px top, 0 0;
+  }
+}
+@media (max-width: 1600px) {
+  .header {
+    background-position: 200px top, 0 0;
+  }
+}
+@media (max-width: 1600px) {
+  .header {
+    background: url("../img/header_bg_1.png"), linear-gradient(0deg, #121177 0%, #000101 100%);
+    background-repeat: no-repeat;
+    background-position: 200px top, 0 0;
+  }
+}
+@media (max-width: 1200px) {
+  .header {
+    background: url("../img/header_mobile.png"), linear-gradient(0deg, #121177 0%, #000101 100%);
+    background-repeat: no-repeat;
+    background-position: 200px top, 0 0;
+  }
+}
+@media (max-width: 991px) {
+  .header {
+    background: linear-gradient(0deg, #121177 0%, #000101 100%);
+  }
+}
+.header .header2 {
+  background: url("../img/man_h.png");
+  min-height: 775px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 991px) {
+  .header .header2 {
+    background: none;
+    padding: 0px;
+  }
+}
+.header .header2 .container {
+  max-width: 1400px;
+}
+.header .navbar {
+  padding-left: 0px !important;
+}
+.header .navbar-brand {
+  font-family: TT Norms Black;
+  color: #c40a43;
+  font-size: 26.01px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  font-style: italic;
+  line-height: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+  text-transform: uppercase;
+  display: block;
+}
+.header .navbar-brand span {
+  font-family: TT Norms Black;
+  color: #1a1fcc;
+  font-size: 18.01px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 500;
+  font-style: italic;
+  line-height: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+}
+.header .navbar-brand p {
+  font-family: TT Norms;
+  color: #8d8d8d;
+  font-size: 12px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 500;
+  font-style: italic;
+  line-height: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+  padding-top: 20px;
+}
+.header .navbar-collapse {
+  top: -15px;
+  position: relative;
+}
+.header .navbar-nav {
+  text-align: center;
+  margin: auto;
+  position: relative;
+}
+@media (max-width: 1200px) {
+  .header .navbar-nav {
+    text-align: center;
+  }
+}
+.header .navbar-nav li a {
+  font-family: TT Norms;
+  color: #8d8d8d;
+  font-size: 12px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 500;
+  line-height: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  text-transform: uppercase;
+}
+@media (max-width: 1200px) {
+  .header .navbar-nav li a {
+    text-align: center;
+  }
+}
+.header .navbar-nav li a:hover {
+  color: #c40a43 !important;
+}
+.header .login {
+  padding-top: 0px;
+}
+@media (max-width: 1200px) {
+  .header .login {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+.header .login .log {
+  background: -webkit-linear-gradient(12deg, #1a1fcc 0%, #b70a3b 100%);
+  background: -moz-linear-gradient(12deg, #1a1fcc 0%, #b70a3b 100%);
+  background: -o-linear-gradient(12deg, #1a1fcc 0%, #b70a3b 100%);
+  background: -ms-linear-gradient(12deg, #1a1fcc 0%, #b70a3b 100%);
+  background: linear-gradient(78deg, #1a1fcc 0%, #b70a3b 100%);
+  box-shadow: 0px 3px 21px 0px rgba(0, 0, 0, 0.45);
+  font-family: TT Norms;
+  color: #ffffff;
+  font-size: 12px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 500;
+  line-height: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+  padding: 15px;
+  padding-left: 40px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  text-transform: uppercase;
+}
+.header .login .log:hover {
+  background: blue;
+  text-decoration: none;
+}
+@media (max-width: 340px) {
+  .header .login .log {
+    padding-left: 20px;
+  }
+}
+.header .login .reg {
+  background: -webkit-linear-gradient(12deg, #1a1fcc 0%, #b70a3b 100%);
+  background: -moz-linear-gradient(12deg, #1a1fcc 0%, #b70a3b 100%);
+  background: -o-linear-gradient(12deg, #1a1fcc 0%, #b70a3b 100%);
+  background: -ms-linear-gradient(12deg, #1a1fcc 0%, #b70a3b 100%);
+  background: linear-gradient(78deg, #b70a3b 0%, #1a1fcc 100%);
+  box-shadow: 0px 3px 21px 0px rgba(0, 0, 0, 0.45);
+  font-family: TT Norms;
+  color: #ffffff;
+  font-size: 12px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 500;
+  line-height: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+  padding: 15px;
+  padding-right: 40px;
+  margin-left: 0px;
+  left: -4px;
+  position: relative;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-left: 1px solid gray;
+  text-transform: uppercase;
+}
+.header .login .reg:hover {
+  background: blue;
+  text-decoration: none;
+}
+@media (max-width: 340px) {
+  .header .login .reg {
+    padding-right: 20px;
+  }
+}
+.header .login form {
+  display: inline-block;
+}
+.header .anons {
+  margin-top: 80px;
+}
+@media (max-width: 991px) {
+  .header .anons {
+    text-align: center;
+  }
+}
+.header .anons .item {
+  display: inline-block;
+  font-family: TT Norms;
+  color: #8d8d8d;
+  font-size: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 500;
+  line-height: 13px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+  transform: scaleX(1.0051);
+  /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+  padding-right: 40px;
+}
+.header .anons h2 {
+  font-family: TT Norms Black;
+  color: #c40a43;
+  font-size: 34px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  font-style: italic;
+  line-height: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+  text-shadow: 0px 3px 21px rgba(0, 0, 0, 0.45);
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+@media (max-width: 991px) {
+  .header .anons h2 {
+    text-align: center;
+  }
+}
+.header .commmand {
+  width: 300px;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+@media (max-width: 991px) {
+  .header .commmand {
+    margin: auto;
+  }
+}
+.header .commmand hr {
+  background-color: #8d8d8d;
+}
+.header .commmand .item {
+  text-align: center;
+  font-family: TT Norms;
+  color: #8d8d8d;
+  font-size: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 500;
+  line-height: 13px;
+  /* Приближение из-за подстановки шрифтов */
+  transform: scaleX(1.0051);
+  /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+  display: inline-block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  vertical-align: top;
+  width: 123px;
+}
+.header .commmand .item p {
+  padding-top: 20px;
+}
+.header .commmand .item img {
+  width: 34px;
+}
+.header .commmand .vs {
+  top: 50px;
+  position: relative;
+  display: inline-block;
+  opacity: 0.1;
+  font-family: TT Norms;
+  color: #ffffff;
+  font-size: 34.22px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 700;
+  line-height: 13px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+  transform: scaleX(1.0051);
+  /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+}
+.header .st .res {
+  font-family: TT Norms;
+  color: #8d8d8d;
+  font-size: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 500;
+  line-height: 13px;
+  /* Приближение из-за подстановки шрифтов */
+  transform: scaleX(1.0051);
+  /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+@media (max-width: 991px) {
+  .header .st .res {
+    text-align: center;
+  }
+}
+.header .st .coeff {
+  background: linear-gradient(0deg, #1a1fcc 0%, #b70a3b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #c40a43;
+  font-family: TT Norms;
+  font-size: 42.11px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 700;
+  text-align: left;
+}
+@media (max-width: 991px) {
+  .header .st .coeff {
+    text-align: center;
+  }
+}
+.header .st .pr {
+  color: #8d8d8d;
+  font-family: TT Norms;
+  font-size: 32.11px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 700;
+  text-align: left;
+}
+@media (max-width: 991px) {
+  .header .st .pr {
+    text-align: center;
+  }
+}
+@media (max-width: 991px) {
+  .header .content {
+    padding: 0px;
+  }
+}
+.header .ctt {
+  margin-top: 250px;
+  position: relative;
+}
+@media (max-width: 600px) {
+  .header .ctt {
+    padding-bottom: 40px;
+  }
+}
+@media (max-width: 991px) {
+  .header .ctt {
+    margin-top: 50px;
+    text-align: center;
+    background: url('../img/man_h.png'), url("../img/super_min_bg_1.png");
+    background-size: contain, cover;
+    background-position: center, top right;
+    background-repeat: no-repeat;
+  }
+}
+.header .ctt h2 {
+  font-family: TT Norms Black;
+  text-transform: uppercase;
+  color: #c40a43;
+  font-size: 52.86px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  font-style: italic;
+  line-height: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+  text-shadow: 0px 3px 21px rgba(0, 0, 0, 0.45);
+}
+@media (max-width: 991px) {
+  .header .ctt h2 {
+    text-align: center;
+    margin-top: 40px;
+  }
+}
+@media (max-width: 600px) {
+  .header .ctt h2 {
+    line-height: 40px;
+    font-size: 42px;
+  }
+}
+.header .ctt .ver {
+  font-family: TT Norms;
+  color: #c40a43;
+  font-size: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 500;
+  font-style: italic;
+  line-height: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+  padding-top: 20px;
+}
+@media (max-width: 991px) {
+  .header .ctt .ver {
+    text-align: center;
+  }
+}
+.header .ctt .data .item {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+@media (max-width: 600px) {
+  .header .ctt .data .item {
+    display: block;
+    margin-right: 0px;
+  }
+}
+.header .ctt .data .cf {
+  font-family: TT Norms;
+  text-transform: uppercase;
+  color: #8d8d8d;
+  font-size: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 500;
+  line-height: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+}
+@media (max-width: 600px) {
+  .header .ctt .data .cf {
+    text-align: center;
+  }
+}
+.header .ctt .data .cf_res {
+  background: linear-gradient(0deg, #1a1fcc 0%, #b70a3b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #c40a43;
+  font-family: TT Norms;
+  font-size: 42.11px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 700;
+  text-align: left;
+}
+@media (max-width: 600px) {
+  .header .ctt .data .cf_res {
+    text-align: center;
+  }
+}
+.header .ctt .data .res {
+  font-family: TT Norms;
+  text-transform: uppercase;
+  color: #8d8d8d;
+  font-size: 15px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 500;
+  line-height: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+}
+@media (max-width: 600px) {
+  .header .ctt .data .res {
+    text-align: center;
+  }
+}
+.header .ctt .data .pr {
+  color: #8d8d8d;
+  font-family: TT Norms;
+  font-size: 42.11px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 700;
+  text-align: left;
+}
+@media (max-width: 600px) {
+  .header .ctt .data .pr {
+    text-align: center;
+  }
+}
+.header .pred {
+  display: inline-block;
+}
+.header .pred .date {
+  display: inline-block;
+}
+@media (max-width: 600px) {
+  .header .pred .date {
+    display: block;
+  }
+}
+.header .pred .time {
+  font-family: TT Norms;
+  color: #8d8d8d;
+  font-size: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 500;
+  font-style: italic;
+  line-height: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+}
+@media (max-width: 600px) {
+  .header .pred .time {
+    text-align: center;
+  }
+}
+.header .pred .item {
+  display: inline-block;
+}
+.header .pred .item .numm {
+  border-radius: 10px;
+  background-color: #1e1ec9;
+  box-shadow: 0px 3px 21px 0px rgba(0, 0, 0, 0.45);
+  width: 50px;
+  height: 45px;
+  font-family: TT Norms;
+  color: #ffffff;
+  font-size: 18px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 500;
+  line-height: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: center;
+  padding-top: 15px;
+}
+.header .pred .item .text {
+  font-family: TT Norms;
+  color: #8d8d8d;
+  font-size: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 500;
+  font-style: italic;
+  line-height: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+}
+.header .pred .by {
+  display: inline-block;
+}
+.header .pred .by a {
+  display: inline-block;
+  background: -webkit-linear-gradient(12deg, #1f24f3 0%, #d31249 100%);
+  background: -moz-linear-gradient(12deg, #1f24f3 0%, #d31249 100%);
+  background: -o-linear-gradient(12deg, #1f24f3 0%, #d31249 100%);
+  background: -ms-linear-gradient(12deg, #1f24f3 0%, #d31249 100%);
+  background: linear-gradient(78deg, #1f24f3 0%, #d31249 100%);
+  box-shadow: 0px 3px 21px 0px rgba(0, 0, 0, 0.45);
+  font-family: TT Norms;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 500;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 75px;
+  padding-right: 75px;
+  border-radius: 20px;
+  top: -43px;
+  left: 60px;
+  position: relative;
+}
+.header .pred .by a:hover {
+  background: blue;
+  text-decoration: none;
+}
+@media (max-width: 600px) {
+  .header .pred .by a {
+    top: 0px;
+    left: 0px;
+  }
+}
+.slide1 {
+  text-align: center;
+  padding-bottom: 120px;
+}
+.slide1 h1 {
+  font-family: TT Norms Black;
+  color: #c40a43;
+  font-size: 34px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  font-style: italic;
+  text-transform: uppercase;
+  margin-top: 80px;
+}
+.slide1 p {
+  font-family: TT Norms;
+  color: #303030;
+  font-size: 16px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 300;
+  line-height: 26px;
+  /* Приближение из-за подстановки шрифтов */
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.slide1 span {
+  font-family: TT Norms Black;
+  color: #c40a43;
+}
+.slide1 a {
+  font-family: TT Norms;
+  color: #c40a43;
+  font-size: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 500;
+  line-height: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  margin-bottom: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.slide1 a:hover {
+  text-decoration: none;
+}
+.sec2-head {
+  background: url("../img/bg_slide2.png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50px;
+}
+.slide2 {
+  background-image: url("../img/bg_slide2.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  text-align: center;
+}
+.slide2 .nav {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+}
+.slide2 .nav li {
+  display: inline-block !important;
+  list-style: none;
+  cursor: pointer;
+}
+.slide2 .nav li a {
+  font-family: TT Norms;
+  font-size: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 500;
+  text-align: left;
+  text-transform: uppercase;
+  background-color: #d1d6dc;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: #89919b;
+  cursor: pointer;
+}
+@media (max-width: 440px) {
+  .slide2 .nav li a {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.slide2 .nav li a:hover {
+  background: blue;
+  text-decoration: none;
+}
+.slide2 .nav li .left {
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.slide2 .nav li .right {
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  left: -5px;
+  position: relative;
+}
+.slide2 .nav li .active {
+  background: -webkit-linear-gradient(12deg, #1a1fcc 0%, #b70a3b 100%);
+  background: -moz-linear-gradient(12deg, #1a1fcc 0%, #b70a3b 100%);
+  background: -o-linear-gradient(12deg, #1a1fcc 0%, #b70a3b 100%);
+  background: -ms-linear-gradient(12deg, #1a1fcc 0%, #b70a3b 100%);
+  background: linear-gradient(78deg, #1a1fcc 0%, #b70a3b 100%);
+  color: white;
+}
+.slide2 .header-it {
+  border-radius: 5px;
+  background-color: #b7093a;
+}
+.slide2 .header-it .head {
+  text-shadow: 0 3px 21px rgba(0, 0, 0, 0.45);
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  /* Text style for "надежный м" */
+  letter-spacing: 0.3px;
+  padding-top: 20px;
+}
+.slide2 .header-it .price {
+  text-shadow: 0 3px 21px rgba(0, 0, 0, 0.45);
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 29.36px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.slide2 .header-it .price span {
+  font-size: 23px;
+  top: -20px;
+  position: relative;
+}
+.slide2 .cont {
+  background: white;
+  margin-top: 0px;
+  position: relative;
+  top: -20px;
+  padding-bottom: 40px;
+}
+.slide2 .cont p {
+  width: 100%;
+  text-align: left;
+  padding-left: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.slide2 .cont .h {
+  color: #000000;
+  font-family: "TT Norms";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 55.68px;
+  /* Text style for "Проходимос" */
+  /* Text style for "" */
+  letter-spacing: 0.34px;
+  text-transform: uppercase;
+}
+.slide2 .cont .item {
+  color: #000000;
+  font-family: "TT Norms";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14px;
+  /* Text style for "Начало мат" */
+  letter-spacing: 1.05px;
+}
+.slide2 .cont .item span {
+  color: #c40b43;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
+.slide2 .cont img {
+  padding-right: 10px;
+}
+.slide2 .cont .time .time_live {
+  font-size: 11px;
+  padding-left: 31px;
+  font-weight: normal;
+  display: block;
+}
+.slide2 .cont .time .time_live span {
+  opacity: 0.7;
+  font-size: 11px;
+  font-family: "TT Norms";
+  line-height: 14px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.slide2 .cont .secur {
+  padding-bottom: 30px;
+}
+.slide2 .last-cont {
+  border-radius: 5px;
+  background-color: #ffffff;
+  background: url('../img/slide_2_bg_last_2.png'), linear-gradient(-228deg, #121177 0%, #580a20 100%);
+  background-size: cover;
+  padding-bottom: 38px;
+}
+.slide2 .last-cont .head {
+  text-shadow: 0 3px 21px rgba(0, 0, 0, 0.45);
+  color: #cd0b42;
+  font-family: "TT Norms";
+  font-weight: bold;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  /* Text style for "Купить над" */
+  letter-spacing: 0.3px;
+  padding-top: 40px;
+}
+.slide2 .last-cont hr {
+  height: 1px;
+  background-color: #ebeff4;
+  opacity: 0.2;
+}
+.slide2 .last-cont .item {
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14px;
+  text-align: left;
+  padding-left: 15px;
+}
+.slide2 .last-cont .item .time_live {
+  color: #c40b43;
+  font-size: 11px;
+  padding-left: 27px;
+  font-weight: normal;
+  display: block;
+}
+.slide2 .last-cont .item .time_live span {
+  color: #c40b43;
+  opacity: 0.7;
+  font-size: 11px;
+  font-family: "TT Norms";
+  line-height: 14px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.slide2 .last-cont .item img {
+  padding-right: 10px;
+}
+.slide2 .last-cont .price {
+  text-shadow: 0 3px 21px rgba(0, 0, 0, 0.45);
+  color: #cd0b42;
+  font-family: "TT Norms";
+  font-weight: bold;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 44.36px;
+  text-transform: uppercase;
+  /* Text style for "1 200" */
+  letter-spacing: 0.66px;
+  /* Text style for "₽" */
+  font-size: 44px;
+  letter-spacing: 1.4px;
+}
+.slide2 .last-cont .price span {
+  opacity: 0.7;
+  text-shadow: 0 3px 21px rgba(0, 0, 0, 0.45);
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 16px;
+  line-height: 55.68px;
+  text-transform: uppercase;
+  /* Text style for "Скидка" */
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  text-decoration: none;
+  text-transform: none;
+}
+.slide2 .coeffand {
+  padding-bottom: 32px;
+}
+.slide2 .coeffand .coef {
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14px;
+  letter-spacing: 1.05px;
+}
+.slide2 .coeffand .num {
+  background: linear-gradient(0deg, #1a1fcc 0%, #b70a3b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #1e1ec9;
+  font-family: "TT Norms";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 44.36px;
+  text-transform: uppercase;
+  /* Text style for "3,45" */
+  letter-spacing: 0.66px;
+}
+.slide2 .coeffand .pr-text {
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14px;
+  letter-spacing: 1.05px;
+}
+.slide2 .coeffand .pr {
+  text-shadow: 0 3px 27px rgba(0, 0, 0, 0.83);
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 44.36px;
+  text-transform: uppercase;
+  letter-spacing: 0.66px;
+  padding-top: 16px;
+}
+.slide2 .by-button {
+  border-radius: 23px;
+  background-color: #4183d7;
+  background-image: linear-gradient(78deg, #1a1fcc 0%, #b70a3b 100%);
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 20px;
+  position: relative;
+}
+.slide2 .by-button:hover {
+  background: blue;
+  text-decoration: none;
+}
+.slide2 .tab-content {
+  padding-top: 60px;
+}
+.slide2 .subscription {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #ffffff;
+  background: url('../img/bg_pod.png'), linear-gradient(to top, #121177 0%, #000101 100%);
+  min-height: 400px;
+  background-repeat: no-repeat;
+}
+@media (max-width: 991px) {
+  .slide2 .subscription {
+    min-height: 440px;
+    padding-bottom: 40px;
+  }
+}
+@media (max-width: 381px) {
+  .slide2 .subscription {
+    background: none;
+    background: linear-gradient(to top, #121177 0%, #000101 100%);
+  }
+}
+.slide2 .subscription h2 {
+  color: #c40a43;
+  font-family: "TT Norms Black";
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 55.68px;
+  text-transform: uppercase;
+  /* Text style for "Месяц выиг" */
+  letter-spacing: 0.66px;
+  padding-top: 40px;
+  text-align: left;
+  padding-left: 40px;
+}
+@media (max-width: 991px) {
+  .slide2 .subscription h2 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 27px;
+    padding-left: 0px;
+  }
+}
+.slide2 .subscription .description {
+  max-width: 451px;
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.3px;
+  text-align: left;
+  padding-left: 40px;
+  padding-top: 30px;
+}
+.slide2 .subscription .description span {
+  color: #c40a43;
+}
+@media (max-width: 991px) {
+  .slide2 .subscription .description {
+    text-align: center;
+    padding-top: 0px;
+    margin: auto;
+    padding-left: 0px;
+  }
+}
+.slide2 .subscription .price {
+  text-align: left;
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 14px;
+  background: none;
+  margin-top: 40px;
+}
+@media (max-width: 991px) {
+  .slide2 .subscription .price {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+.slide2 .subscription .price .new_price {
+  background: linear-gradient(0deg, #1a1fcc 0%, #b70a3b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "TT Norms";
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 44.36px;
+  text-transform: uppercase;
+}
+.slide2 .subscription .price .old_price {
+  text-decoration: line-through;
+}
+.slide2 .subscription .paymant_type {
+  text-align: left;
+}
+@media (max-width: 991px) {
+  .slide2 .subscription .paymant_type {
+    text-align: center;
+  }
+}
+.slide2 .subscription .paymant_type p {
+  cursor: pointer;
+  display: inline-block;
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.slide2 .subscription .paymant_type p input {
+  padding-right: 15px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.slide2 .subscription .paymant_type p #val2 {
+  margin-left: 40px;
+}
+.slide2 .subscription .paymant_type p label {
+  cursor: pointer;
+}
+.slide2 .subscription .pay {
+  float: left;
+  border-radius: 23px;
+  background-color: #4183d7;
+  background-image: linear-gradient(78deg, #1a1fcc 0%, #b70a3b 100%);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 60px;
+  padding-right: 60px;
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+.slide2 .subscription .pay:hover {
+  background: blue;
+  text-decoration: none;
+}
+@media (max-width: 991px) {
+  .slide2 .subscription .pay {
+    text-align: center;
+    margin: auto;
+    position: relative;
+    float: none;
+  }
+}
+.slide2 .mab_bg {
+  position: relative;
+  float: right;
+  right: 0px;
+  margin-top: -397px;
+  z-index: 99999999999;
+}
+@media (max-width: 991px) {
+  .slide2 .mab_bg {
+    display: none;
+  }
+}
+.slide3 {
+  background: url("../img/slide_3_bg.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  min-height: 1118px;
+  position: relative;
+  margin-top: -40px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.slide3 h2 {
+  color: #c40b43;
+  font-family: "TT Norms Black";
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 55.68px;
+  text-transform: uppercase;
+  padding-top: 80px;
+  font-style: italic;
+}
+.slide3 .item_1 .head {
+  width: 100%;
+  background-color: #b70a3b;
+  min-height: 81px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-top: 80px;
+}
+.slide3 .item_1 .head .match {
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+.slide3 .item_1 .head .match img {
+  position: relative;
+  padding-right: 8px;
+  top: -2px;
+}
+.slide3 .item_1 .head .command {
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: left;
+  padding-top: 20px;
+}
+@media (max-width: 768px) {
+  .slide3 .item_1 .head .command {
+    text-align: center;
+  }
+}
+.slide3 .item_1 .head .command-d {
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 13px;
+  font-weight: 400;
+  float: left;
+  padding-top: 0px;
+  top: -12px;
+  position: relative;
+}
+@media (max-width: 768px) {
+  .slide3 .item_1 .head .command-d {
+    float: none;
+  }
+}
+.slide3 .item_1 .head .time {
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18.09px;
+  padding-top: 33px;
+}
+.slide3 .item_1 .head .time img {
+  vertical-align: text-bottom;
+}
+.slide3 .item_1 .content {
+  width: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 42.33px 8.67px rgba(0, 0, 0, 0.28);
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.slide3 .item_1 .content .match {
+  color: #303030;
+  font-family: "TT Norms";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.8px;
+  text-align: left;
+  padding-left: 35px;
+}
+@media (max-width: 768px) {
+  .slide3 .item_1 .content .match {
+    text-align: center;
+    padding-left: 0px;
+  }
+}
+.slide3 .item_1 .content .with_line {
+  position: relative;
+}
+.slide3 .item_1 .content .with_line .line {
+  position: absolute;
+  top: -30px;
+  bottom: -10px;
+  left: 0px;
+  width: 2px;
+  background-color: #d0d0d0;
+}
+@media (max-width: 768px) {
+  .slide3 .item_1 .content .with_line .line {
+    display: none;
+  }
+}
+.slide3 .item_1 .content .coeff {
+  color: #303030;
+  font-family: "TT Norms";
+  font-size: 16px;
+  line-height: 26px;
+}
+.slide3 .item_1 .content .coeff span {
+  background: linear-gradient(140deg, #1a1fcc 0%, #b70a3b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "TT Norms";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.96px;
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-top: 20px;
+  position: relative;
+  top: 4px;
+}
+.slide3 .item_1 .content .proffit {
+  color: #303030;
+  font-family: "TT Norms";
+  font-size: 16px;
+  line-height: 26px;
+}
+.slide3 .item_1 .content .proffit span {
+  background: linear-gradient(140deg, #1a1fcc 0%, #b70a3b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "TT Norms";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.96px;
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-top: 20px;
+  position: relative;
+  top: 4px;
+}
+.slide3 .item_2 {
+  margin-top: 80px;
+}
+.slide3 .item_2 .head {
+  width: 100%;
+  background-color: #b70a3b;
+  min-height: 81px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-top: 40px;
+}
+.slide3 .item_2 .head .match {
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 30px;
+  text-align: left;
+  padding-left: 20px;
+}
+@media (max-width: 768px) {
+  .slide3 .item_2 .head .match {
+    text-align: center;
+    padding-left: 0px;
+  }
+}
+.slide3 .item_2 .head .match img {
+  position: relative;
+  padding-right: 8px;
+  top: -2px;
+}
+.slide3 .item_2 .head .command {
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 20px;
+  text-align: left;
+  padding-left: 20px;
+}
+@media (max-width: 768px) {
+  .slide3 .item_2 .head .command {
+    text-align: center;
+    padding-left: 0px;
+  }
+}
+.slide3 .item_2 .head .command-d {
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 13px;
+  font-weight: 400;
+  float: left;
+  padding-top: 0px;
+  top: -12px;
+  position: relative;
+  text-align: left;
+  padding-left: 20px;
+}
+@media (max-width: 768px) {
+  .slide3 .item_2 .head .command-d {
+    text-align: center;
+    float: none;
+    padding-left: 0px;
+  }
+}
+.slide3 .item_2 .head .time {
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18.09px;
+  padding-top: 33px;
+}
+.slide3 .item_2 .head .time img {
+  vertical-align: text-bottom;
+}
+.slide3 .item_2 .content {
+  width: 100%;
+  background-color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dadadc;
+}
+.slide3 .item_2 .content .match {
+  color: #303030;
+  font-family: "TT Norms";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.8px;
+  text-align: left;
+  padding-left: 15px;
+}
+@media (max-width: 768px) {
+  .slide3 .item_2 .content .match {
+    text-align: center;
+    padding-left: 0px;
+  }
+}
+.slide3 .item_2 .content .command {
+  font-family: "TT Norms";
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 3px;
+  text-align: left;
+  padding-left: 40px;
+}
+@media (max-width: 768px) {
+  .slide3 .item_2 .content .command {
+    text-align: center;
+    padding-left: 0px;
+  }
+}
+.slide3 .item_2 .content .command img {
+  position: relative;
+  padding-right: 8px;
+  top: -2px;
+}
+.slide3 .item_2 .content .command-d {
+  font-family: "TT Norms";
+  font-size: 13px;
+  font-weight: 400;
+  float: left;
+  padding-top: 0px;
+  top: -12px;
+  position: relative;
+  text-align: left;
+  padding-left: 70px;
+}
+@media (max-width: 768px) {
+  .slide3 .item_2 .content .command-d {
+    text-align: center;
+    float: none;
+    padding-left: 0px;
+  }
+}
+.slide3 .item_2 .content .coeff {
+  color: #303030;
+  font-family: "TT Norms";
+  font-size: 16px;
+  line-height: 26px;
+}
+.slide3 .item_2 .content .coeff span {
+  background: linear-gradient(140deg, #1a1fcc 0%, #b70a3b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "TT Norms";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.96px;
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-top: 20px;
+  position: relative;
+  top: 4px;
+}
+.slide3 .item_2 .content .proffit {
+  color: #303030;
+  font-family: "TT Norms";
+  font-size: 16px;
+  line-height: 26px;
+}
+.slide3 .item_2 .content .proffit span {
+  background: linear-gradient(140deg, #1a1fcc 0%, #b70a3b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "TT Norms";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.96px;
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-top: 20px;
+  position: relative;
+  top: 4px;
+}
+.slide3 .item_2 .bottom {
+  width: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #d0d0d0;
+  min-height: 81px;
+  padding-top: 20px;
+}
+.slide3 .item_2 .bottom .coef,
+.slide3 .item_2 .bottom .proffit {
+  color: #303030;
+  font-family: "TT Norms";
+  font-size: 16px;
+  line-height: 26px;
+  text-align: left;
+  padding-left: 20px;
+}
+@media (max-width: 768px) {
+  .slide3 .item_2 .bottom .coef,
+  .slide3 .item_2 .bottom .proffit {
+    text-align: center;
+    padding-left: 0px;
+  }
+}
+.slide3 .item_2 .bottom .coef span,
+.slide3 .item_2 .bottom .proffit span {
+  background: linear-gradient(140deg, #1a1fcc 0%, #b70a3b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "TT Norms";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.96px;
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-top: 20px;
+  position: relative;
+  top: 4px;
+}
+.slide4 {
+  text-align: center;
+  background-color: #ebeff4;
+  padding-bottom: 80px;
+}
+@media (max-width: 768px) {
+  .slide4 {
+    padding-left: 12px;
+    padding-right: 12px;
+    display: none;
+  }
+}
+.slide4 h2 {
+  color: #c40b43;
+  font-family: "TT Norms Black";
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 55.68px;
+  text-transform: uppercase;
+  /* Text style for "Статистика" */
+  letter-spacing: 0.64px;
+  padding-top: 80px;
+}
+.slide4 table {
+  width: 100%;
+}
+.slide4 thead {
+  background-color: #b70a3b;
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 55.68px;
+  text-transform: uppercase;
+  /* Text style for "Тарифный п" */
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+.slide4 thead tr {
+  height: 90px;
+  text-align: center;
+  border: 1px solid #dadadc;
+}
+.slide4 thead td {
+  border: 1px solid #dadadc;
+}
+.slide4 tbody {
+  background-color: white;
+  color: #303030;
+  font-family: "TT Norms";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  /* Text style for "Прибыльный" */
+  letter-spacing: 0.8px;
+  text-align: center;
+}
+.slide4 tbody tr {
+  height: 90px;
+  border: 1px solid #dadadc;
+}
+.slide4 tbody td {
+  border: 1px solid #dadadc;
+}
+.slide4 .win {
+  color: #119914;
+}
+.slide4 .loose {
+  color: #c40b43;
+}
+.slide4 .all {
+  width: 100%;
+  background-color: white;
+  font-family: TT Norms;
+  color: #858585;
+  font-size: 16px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 300;
+  line-height: 26px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 50px;
+  height: 81px;
+  border: 1px solid #dadadc;
+}
+.slide4 .proffit-bottom {
+  width: 100%;
+  background-color: #f5f5f5;
+  border: 1px solid #dadadc;
+  height: 100px;
+  padding-top: 30px;
+  text-align: left;
+  padding-left: 7%;
+}
+.slide4 .proffit-bottom .proffit {
+  color: #303030;
+  font-family: "TT Norms";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  /* Text style for "Ваш профит" */
+  letter-spacing: 0.8px;
+}
+.slide4 .proffit-bottom .proffit span {
+  color: #000000;
+  font-family: "TT Norms Black";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44.36px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.slide4 .proffit-bottom .more {
+  border-radius: 23px;
+  background-color: #4183d7;
+  background-image: linear-gradient(78deg, #1a1fcc 0%, #b70a3b 100%);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  text-transform: uppercase;
+  position: relative;
+  top: 11px;
+  white-space: nowrap;
+}
+.slide4 .proffit-bottom .more:hover {
+  background: blue;
+  text-decoration: none;
+}
+@media (max-width: 991px) {
+  .slide4 .proffit-bottom .more {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+.slide5 {
+  background: url("../img/slide5_bg.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  height: 620px;
+  padding-bottom: 65px;
+  margin-top: -40px;
+}
+@media (max-width: 991px) {
+  .slide5 {
+    height: auto;
+  }
+}
+.slide5 h2 {
+  text-shadow: 0 3px 43px rgba(0, 0, 0, 0.54);
+  color: #c40b43;
+  font-family: "TT Norms Black";
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 55.68px;
+  text-transform: uppercase;
+  /* Text style for "Посчитайте" */
+  letter-spacing: 0.64px;
+  padding-top: 80px;
+}
+@media (max-width: 991px) {
+  .slide5 h2 {
+    text-align: center;
+  }
+}
+@media (max-width: 991px) {
+  .slide5 form {
+    text-align: center;
+  }
+}
+.slide5 .mab_bg {
+  position: relative;
+  left: -150px;
+  top: -20px;
+}
+@media (max-width: 991px) {
+  .slide5 .mab_bg {
+    display: none;
+  }
+}
+.slide5 .sec {
+  font-family: "TT Norms";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.52px;
+  /* Text style for "Размер ста" */
+  letter-spacing: 0.5px;
+  color: #8d8d8d;
+}
+.slide5 input {
+  width: 200px;
+}
+.slide5 select {
+  width: 200px;
+  background-color: #fff;
+  color: #000102;
+  font-family: "TT Norms";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 14px;
+  /* Text style for "С, тандарт" */
+  letter-spacing: 0.8px;
+  height: 32px;
+}
+@media (max-width: 991px) {
+  .slide5 select {
+    text-align: center;
+  }
+}
+.slide5 .text {
+  font-family: "TT Norms";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.52px;
+  /* Text style for "Ваша чиста" */
+  letter-spacing: 0.5px;
+  font-style: italic;
+  color: #8d8d8d;
+  padding-top: 30px;
+}
+@media (max-width: 991px) {
+  .slide5 .text {
+    text-align: center;
+  }
+}
+.slide5 .summ {
+  font-family: "TT Norms Black";
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 44.36px;
+  text-transform: uppercase;
+  /* Text style for "1 200, $" */
+  letter-spacing: 0.99px;
+  opacity: 0.7;
+  color: #ffffff;
+  padding-bottom: 40px;
+}
+@media (max-width: 991px) {
+  .slide5 .summ {
+    text-align: center;
+  }
+}
+.slide5 .pay {
+  border-radius: 23px;
+  background-color: #4183d7;
+  background-image: linear-gradient(78deg, #1a1fcc 0%, #b70a3b 100%);
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  text-transform: uppercase;
+  /* Text style for "о, платить" */
+  letter-spacing: 1.4px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  white-space: nowrap;
+}
+@media (max-width: 991px) {
+  .slide5 .pay {
+    text-align: center;
+    margin: auto;
+    position: relative;
+    display: block;
+    max-width: 400px;
+  }
+}
+@media (max-width: 410px) {
+  .slide5 .pay {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 10px;
+  }
+}
+.slide5 .pay:hover {
+  background: blue;
+  text-decoration: none;
+}
+.slide6 {
+  text-align: center;
+  padding-bottom: 80px;
+}
+.slide6 .container {
+  max-width: 994px;
+}
+.slide6 h2 {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+  color: #c40b43;
+  font-family: "TT Norms Black";
+  font-size: 34px;
+  font-weight: 400;
+  text-transform: uppercase;
+  /* Text style for "Платные пр" */
+  letter-spacing: 0.64px;
+  line-height: 1.5em;
+}
+@media (max-width: 991px) {
+  .slide6 h2 {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+  }
+}
+.slide6 .content {
+  color: #303030;
+  font-family: "TT Norms";
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  text-align: left;
+}
+.slide6 a,
+.slide6 .red {
+  color: #c40b43;
+}
+.slide6 .black {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 26px;
+}
+.slide6 .bottom {
+  min-height: 300px;
+  background: url("../img/slide6_bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  margin-top: 60px;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  border-radius: 5px;
+}
+@media (max-width: 991px) {
+  .slide6 .bottom {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+.slide6 .bottom .col-lg-5 {
+  position: relative;
+}
+.slide6 .bottom .col-lg-5 .line {
+  position: absolute;
+  width: 2px;
+  left: -20px;
+  top: -20px;
+  bottom: -40px;
+  background: rgba(255, 255, 255, 0.2);
+}
+.slide6 .vk {
+  display: inline-block;
+  background-color: #c40b43;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  padding-left: 5px;
+  padding-top: 3px;
+  margin-right: 15px;
+  position: relative;
+  top: -3px;
+}
+@media (max-width: 991px) {
+  .slide6 .vk {
+    padding-left: 0px;
+  }
+}
+.slide6 h3 {
+  display: inline-block;
+  color: #c40b43;
+  font-family: "TT Norms Black";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 55.68px;
+  text-transform: uppercase;
+  /* Text style for "Ищешь бесп" */
+  letter-spacing: 0.41px;
+}
+.slide6 .wellcome {
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  padding-bottom: 30px;
+  max-width: 400px;
+}
+.slide6 .wellcome span {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+}
+.slide6 .add_group {
+  border-radius: 23px;
+  text-decoration: none;
+  background-color: #4183d7;
+  background-image: linear-gradient(78deg, #1a1fcc 0%, #b70a3b 100%);
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  text-transform: uppercase;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 40px;
+  margin-top: 30px;
+}
+@media (max-width: 991px) {
+  .slide6 .add_group {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.slide6 .add_group img {
+  margin-right: 15px;
+  position: relative;
+  top: -2px;
+  margin-left: -25px;
+}
+.slide6 .add_group:hover {
+  background: blue;
+}
+.slide6 .sub_numm {
+  opacity: 0.5;
+  color: #ffffff;
+  font-family: "TT Norms Black";
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 19.52px;
+  letter-spacing: 0.5px;
+  padding-top: 20px;
+}
+.slide6 .contacts p {
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.slide6 .contacts .phone {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding-bottom: 25px;
+}
+.slide6 .links a {
+  padding-right: 20px;
+}
+@media (max-width: 991px) {
+  .slide6 .links a {
+    padding-left: 20px;
+  }
+}
+.slide7 {
+  min-height: 700px;
+  background: url("../img/slide7_bg.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding-bottom: 90px;
+}
+.slide7 h2 {
+  text-align: center;
+  color: #c40b43;
+  font-family: "TT Norms Black";
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 55.68px;
+  text-transform: uppercase;
+  /* Text style for "Гарантии н" */
+  letter-spacing: 0.64px;
+  padding-top: 80px;
+}
+.slide7 .head {
+  background: linear-gradient(0deg, #1a1fcc 0%, #b70a3b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #000000;
+  font-family: "TT Norms Black";
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 33px;
+  text-transform: uppercase;
+  /* Text style for "27.000" */
+  letter-spacing: 0.99px;
+}
+@media (max-width: 991px) {
+  .slide7 .head {
+    text-align: center;
+  }
+}
+.slide7 .sub-head {
+  color: #b30b3f;
+  font-family: "TT Norms";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.9px;
+}
+@media (max-width: 991px) {
+  .slide7 .sub-head {
+    text-align: center;
+  }
+}
+.slide7 .text {
+  opacity: 0.7;
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  /* Text style for "На рынке п" */
+  letter-spacing: 0.8px;
+}
+@media (max-width: 991px) {
+  .slide7 .text {
+    text-align: center;
+  }
+}
+.slide7 .s7-c {
+  margin-top: 50px;
+}
+.slide7 .bottom {
+  display: flex;
+  margin-top: 70px;
+}
+@media (max-width: 991px) {
+  .slide7 .bottom {
+    display: block;
+    text-align: center;
+  }
+}
+.slide7 .bottom p {
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  /* Text style for "У нас есть" */
+  letter-spacing: 0.8px;
+  padding-top: 30px;
+  padding-right: 30px;
+}
+.slide8 {
+  min-height: 600px;
+  text-align: center;
+  padding-bottom: 80px;
+}
+.slide8 h2 {
+  color: #c40b43;
+  font-family: "TT Norms Black";
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 55.68px;
+  text-transform: uppercase;
+  /* Text style for "ОТзывы" */
+  letter-spacing: 0.64px;
+  padding-top: 80px;
+  font-style: italic;
+}
+.slide9 {
+  background: url("../img/slide_9_bg.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  min-height: 600px;
+  padding-bottom: 80px;
+}
+.slide9 h2 {
+  color: #c40b43;
+  font-family: "TT Norms Black";
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 55.68px;
+  text-transform: uppercase;
+  /* Text style for "Вопросы и" */
+  letter-spacing: 0.64px;
+  padding-top: 80px;
+  text-align: center;
+  font-style: italic;
+}
+.slide9 .quest {
+  background-color: #f5f5f5;
+  width: 90%;
+  position: relative;
+  margin: auto;
+  color: #2b2b2b;
+  font-family: "TT Norms";
+  font-size: 16px;
+  /* Text style for "Обязательн" */
+  font-weight: 700;
+  line-height: 50px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: url("../img/arrow2.png");
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.slide9 .collapsed {
+  background-image: url("../img/arrow1.png");
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+}
+.slide9 .mycollapse {
+  width: 90%;
+  position: relative;
+  margin: auto;
+  background-color: #ffffff;
+  color: #2b2b2b;
+  font-family: "TT Norms";
+  font-size: 16px;
+  font-weight: 700;
+  font-weight: 400;
+  line-height: 1.5em;
+  padding: 20px;
+}
+.slide10 {
+  padding-bottom: 120px;
+}
+@media (max-width: 991px) {
+  .slide10 {
+    text-align: center;
+  }
+}
+.slide10 img {
+  max-width: 100%;
+}
+.slide10 h2 {
+  text-align: center;
+  color: #c40b43;
+  font-family: "TT Norms Black";
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 55.68px;
+  text-transform: uppercase;
+  /* Text style for "Обучение с" */
+  letter-spacing: 0.64px;
+  margin-top: 80px;
+  font-style: italic;
+}
+.slide10 .item {
+  padding-top: 60px;
+}
+.slide10 .item .start {
+  opacity: 0.5;
+  color: #303030;
+  font-family: "TT Norms";
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 14px;
+  /* Text style for "9,  феврал" */
+  letter-spacing: 0.55px;
+}
+.slide10 .head {
+  color: #303030;
+  font-family: "TT Norms";
+  font-size: 18px;
+  font-weight: 700;
+  /* Text style for "Разгром тр" */
+  letter-spacing: 0.45px;
+  margin-top: -10px;
+}
+.slide10 .text {
+  color: #303030;
+  font-family: "TT Norms";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  /* Text style for "Таможенные" */
+  letter-spacing: 0.7px;
+}
+.site-footer {
+  background: url("../img/footer.bg.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  position: absolute;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media (max-width: 991px) {
+  .site-footer {
+    text-align: center;
+  }
+}
+.site-footer .brand {
+  font-family: "TT Norms Black";
+  color: #c40a43;
+  font-size: 26.01px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  font-style: italic;
+  line-height: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+  text-transform: uppercase;
+  display: block;
+}
+@media (max-width: 991px) {
+  .site-footer .brand {
+    text-align: center;
+    margin: auto;
+    position: relative;
+  }
+}
+.site-footer .brand span {
+  font-family: "TT Norms Black";
+  color: #1a1fcc;
+  font-size: 18.01px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 500;
+  font-style: italic;
+  line-height: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+}
+.site-footer .text {
+  opacity: 0.5;
+  color: #fefefe;
+  font-family: "TT Norms";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  /* Text style for "Букмекерск" */
+  letter-spacing: 0.7px;
+  padding-top: 20px;
+}
+.site-footer .items a {
+  opacity: 0.5;
+  color: #fefefe;
+  font-family: "TT Norms";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 30px;
+  /* Text style for "Политика к" */
+  letter-spacing: 0.7px;
+  display: block;
+}
+.site-footer hr {
+  background-color: #eef1f5;
+  opacity: 0.2;
+}
+.site-footer .copir {
+  opacity: 0.5;
+  color: #fefefe;
+  font-family: "TT Norms";
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+  /* Text style for "© 2018 bs1" */
+  letter-spacing: 0.6px;
+}
+.header-page {
+  background: black;
+}
+.header-page .navbar {
+  padding-left: 0px !important;
+}
+.header-page .navbar-brand {
+  font-family: TT Norms Black;
+  color: #c40a43;
+  font-size: 26.01px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 900;
+  font-style: italic;
+  text-align: left;
+  text-transform: uppercase;
+  display: block;
+}
+.header-page .navbar-brand span {
+  font-family: TT Norms Black;
+  color: #1a1fcc;
+  font-size: 18.01px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 500;
+  font-style: italic;
+  line-height: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+}
+.header-page .navbar-brand p {
+  font-family: TT Norms;
+  color: #8d8d8d;
+  font-size: 12px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 500;
+  font-style: italic;
+  line-height: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+  padding-top: 10px;
+}
+.header-page .navbar-collapse {
+  top: -15px;
+  position: relative;
+}
+.header-page .navbar-nav {
+  text-align: center;
+  margin: auto;
+  position: relative;
+  padding-top: 20px;
+}
+@media (max-width: 1200px) {
+  .header-page .navbar-nav {
+    text-align: center;
+  }
+}
+.header-page .navbar-nav li a {
+  font-family: TT Norms;
+  color: #8d8d8d;
+  font-size: 12px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 500;
+  line-height: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  text-transform: uppercase;
+}
+@media (max-width: 1200px) {
+  .header-page .navbar-nav li a {
+    text-align: center;
+  }
+}
+.header-page .navbar-nav li a:hover {
+  color: #c40a43 !important;
+}
+.header-page .login {
+  padding-top: 20px;
+}
+@media (max-width: 1200px) {
+  .header-page .login {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+.header-page .login .log {
+  background: -webkit-linear-gradient(12deg, #1a1fcc 0%, #b70a3b 100%);
+  background: -moz-linear-gradient(12deg, #1a1fcc 0%, #b70a3b 100%);
+  background: -o-linear-gradient(12deg, #1a1fcc 0%, #b70a3b 100%);
+  background: -ms-linear-gradient(12deg, #1a1fcc 0%, #b70a3b 100%);
+  background: linear-gradient(78deg, #1a1fcc 0%, #b70a3b 100%);
+  box-shadow: 0px 3px 21px 0px rgba(0, 0, 0, 0.45);
+  font-family: TT Norms;
+  color: #ffffff;
+  font-size: 12px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 500;
+  line-height: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+  padding: 15px;
+  padding-left: 40px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  text-transform: uppercase;
+}
+.header-page .login .log:hover {
+  background: blue;
+  text-decoration: none;
+}
+@media (max-width: 340px) {
+  .header-page .login .log {
+    padding-left: 20px;
+  }
+}
+.header-page .login .reg {
+  background: -webkit-linear-gradient(12deg, #1a1fcc 0%, #b70a3b 100%);
+  background: -moz-linear-gradient(12deg, #1a1fcc 0%, #b70a3b 100%);
+  background: -o-linear-gradient(12deg, #1a1fcc 0%, #b70a3b 100%);
+  background: -ms-linear-gradient(12deg, #1a1fcc 0%, #b70a3b 100%);
+  background: linear-gradient(78deg, #b70a3b 0%, #1a1fcc 100%);
+  box-shadow: 0px 3px 21px 0px rgba(0, 0, 0, 0.45);
+  font-family: TT Norms;
+  color: #ffffff;
+  font-size: 12px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 500;
+  line-height: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+  padding: 15px;
+  padding-right: 40px;
+  margin-left: 0px;
+  left: -4px;
+  position: relative;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-left: 1px solid gray;
+  text-transform: uppercase;
+}
+.header-page .login .reg:hover {
+  background: blue;
+  text-decoration: none;
+}
+@media (max-width: 340px) {
+  .header-page .login .reg {
+    padding-right: 20px;
+  }
+}
+.site-bar {
+  background-color: #eceff4;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.site-bar ul {
+  text-align: left;
+  padding-left: 0px;
+}
+.site-bar ul li {
+  list-style: none;
+}
+.site-bar ul li a {
+  font-family: TT Norms;
+  color: #89919b;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.site-bar ul li a:hover {
+  text-decoration: none;
+  color: #c40a43;
+}
+.site-bar .bottom {
+  min-height: 300px;
+  background: url("../img/slide6_bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-bottom: 40px;
+}
+.site-bar .vk {
+  display: inline-block;
+  background-color: #c40b43;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  padding-left: 0px;
+  padding-top: 3px;
+  margin-right: 15px;
+  position: relative;
+  top: 5px;
+}
+.site-bar h3 {
+  display: inline-block;
+  color: #c40b43;
+  font-family: "TT Norms Black";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 55.68px;
+  text-transform: uppercase;
+  /* Text style for "Ищешь бесп" */
+  letter-spacing: 0.41px;
+}
+.site-bar .wellcome {
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  padding-bottom: 30px;
+  max-width: 400px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.site-bar .wellcome span {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+}
+.site-bar .add_group {
+  border-radius: 23px;
+  background-color: #4183d7;
+  background-image: linear-gradient(78deg, #1a1fcc 0%, #b70a3b 100%);
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  text-transform: uppercase;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 30px;
+}
+.site-bar .add_group img {
+  margin-right: 15px;
+  position: relative;
+  top: -2px;
+}
+.site-bar .sub_numm {
+  opacity: 0.5;
+  color: #ffffff;
+  font-family: "TT Norms Black";
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 19.52px;
+  letter-spacing: 0.5px;
+  padding-top: 20px;
+}
+.site-bar .contacts p {
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.site-bar .contacts .phone {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding-bottom: 25px;
+}
+.site-bar .links a {
+  color: #c40a43;
+}
+.site-content {
+  padding-top: 30px;
+  padding-bottom: 80px;
+  padding-left: 30px;
+}
+.site-content img {
+  max-width: 100%;
+}
+#login_registr a {
+  cursor: pointer;
+}
+#login_registr .nav {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  display: block;
+  text-align: center;
+}
+#login_registr .nav li {
+  display: inline-block !important;
+  list-style: none;
+  cursor: pointer;
+}
+#login_registr .nav li a {
+  font-family: TT Norms;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  text-transform: uppercase;
+  background-color: #d1d6dc;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: #89919b;
+  cursor: pointer;
+}
+#login_registr .nav li a:hover {
+  background: blue;
+  text-decoration: none;
+}
+#login_registr .nav li .left {
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+#login_registr .nav li .right {
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  left: -5px;
+  position: relative;
+}
+#login_registr .nav li .active {
+  background: -webkit-linear-gradient(12deg, #1a1fcc 0%, #b70a3b 100%);
+  background: -moz-linear-gradient(12deg, #1a1fcc 0%, #b70a3b 100%);
+  background: -o-linear-gradient(12deg, #1a1fcc 0%, #b70a3b 100%);
+  background: -ms-linear-gradient(12deg, #1a1fcc 0%, #b70a3b 100%);
+  background: linear-gradient(78deg, #1a1fcc 0%, #b70a3b 100%);
+  color: white;
+}
+#login_registr h2 {
+  text-align: center;
+  margin: 40px;
+  color: #c40b43;
+  font-family: "TT Norms Black";
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 55.68px;
+  text-transform: uppercase;
+  letter-spacing: 0.64px;
+}
+#login_registr .form_row {
+  max-width: 660px;
+  margin: auto;
+}
+#login_registr .btn-form {
+  outline: 0;
+  width: 280px;
+  margin: 30px auto;
+  border: 0;
+  display: block;
+  background: -webkit-linear-gradient(12deg, #1f24f3 0%, #d31249 100%);
+  background: -moz-linear-gradient(12deg, #1f24f3 0%, #d31249 100%);
+  background: -o-linear-gradient(12deg, #1f24f3 0%, #d31249 100%);
+  background: -ms-linear-gradient(12deg, #1f24f3 0%, #d31249 100%);
+  background: linear-gradient(78deg, #1f24f3 0%, #d31249 100%);
+  box-shadow: 0px 3px 21px 0px rgba(0, 0, 0, 0.45);
+  font-family: TT Norms;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#login_registr .btn-form:hover {
+  background: blue;
+  text-decoration: none;
+}
+#login_registr .error {
+  color: red;
+}
+#login_registr .form_registration {
+  max-width: 600px;
+  margin: auto;
+}
+#login_registr .form_registration .field-registrationform-email,
+#login_registr .form_registration .field-registrationform-aсept {
+  max-width: 310px;
+  margin: auto;
+}
+#login_registr .form_registration .field-registrationform-aсept label {
+  display: inline;
+}
+#login_registr .form_registration .field-registrationform-aсept label a {
+  color: #b70a3b;
+  font-family: "TT Norms";
+}
+#login_registr .form_forgotPassword .field-forgotpasswordform-email {
+  max-width: 310px;
+  margin: auto;
+}
+#login_registr .vk {
+  background: url("../img/vk-ico.png"), #1a1fcc;
+  background-size: 23px 12px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+#login_registr .fb {
+  background: url("../img/facebook-ico-min.png"), #1a1fcc;
+  background-size: 9px 20px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+#login_registr .ok {
+  background: url("../img/ok-ico-min.png"), #1a1fcc;
+  background-size: 13px 22px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+#login_registr .ico-soc {
+  display: inline-block;
+  margin-right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: #1a1fcc;
+  border-radius: 40px;
+  cursor: pointer;
+}
+#login_registr .soc-cont {
+  text-align: center;
+}
+#login_registr #vk_auth {
+  margin: 0 auto 40px;
+}
+label {
+  cursor: pointer;
+}
+.login .logout {
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  background: -webkit-linear-gradient(12deg, #1a1fcc 0%, #b70a3b 100%);
+  background: -moz-linear-gradient(12deg, #1a1fcc 0%, #b70a3b 100%);
+  background: -o-linear-gradient(12deg, #1a1fcc 0%, #b70a3b 100%);
+  background: -ms-linear-gradient(12deg, #1a1fcc 0%, #b70a3b 100%);
+  background: linear-gradient(78deg, #b70a3b 0%, #1a1fcc 100%);
+  box-shadow: 0px 3px 21px 0px rgba(0, 0, 0, 0.45);
+  font-family: TT Norms;
+  color: #ffffff;
+  font-size: 12px;
+  /* Приближение из-за подстановки шрифтов */
+  font-weight: 500;
+  line-height: 14px;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+  padding: 15px;
+  padding-right: 40px;
+  margin-left: 0px;
+  left: -4px;
+  position: relative;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-left: 1px solid gray;
+  text-transform: uppercase;
+}
+.login .logout:hover {
+  background: blue;
+  text-decoration: none;
+}
+@media (max-width: 340px) {
+  .login .logout {
+    padding-right: 20px;
+  }
+}
+.login form {
+  display: inline-block;
+}
+.bredcums {
+  padding: 0;
+  list-style: none;
+}
+.bredcums li {
+  display: inline-block;
+  font-size: 13px;
+}
+.bredcums li:after {
+  padding: 0 0 0 5px;
+  content: '>';
+}
+.bredcums li:nth-last-child(1):after {
+  display: none;
+}
+.bredcums li a {
+  color: #a4a7aa;
+}
+.site-content .news-date {
+  color: #bababa;
+  font-size: 12px;
+}
+.news_list .img_contaier {
+  display: flex;
+  width: 255px;
+  height: 217px;
+}
+.news_list .img_contaier img {
+  margin: auto;
+}
+.all_news_list .img_contaier {
+  max-width: 255px;
+  width: 100%;
+}
+.all_news_list .item {
+  padding-top: 60px;
+}
+.all_news_list .item .start {
+  opacity: 0.5;
+  color: #303030;
+  font-family: "TT Norms";
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 14px;
+  /* Text style for "9,  феврал" */
+  letter-spacing: 0.55px;
+}
+.all_news_list .head {
+  color: #303030;
+  font-family: "TT Norms";
+  font-size: 18px;
+  font-weight: 700;
+  /* Text style for "Разгром тр" */
+  letter-spacing: 0.45px;
+  margin-top: -10px;
+}
+.all_news_list .text {
+  color: #303030;
+  font-family: "TT Norms";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  /* Text style for "Таможенные" */
+  letter-spacing: 0.7px;
+}
+.contacts h1 {
+  color: #c40b43;
+  font-family: "TT Norms Black";
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 55.68px;
+  text-transform: uppercase;
+  letter-spacing: 0.64px;
+}
+.contacts p {
+  color: #000000;
+  font-family: "TT Norms";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+}
+.contacts span {
+  display: block;
+  color: #303030;
+  font-family: "TT Norms";
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 26px;
+}
+.contacts .mailto {
+  color: #c40b43;
+  font-weight: 300;
+  letter-spacing: 0.8px;
+  line-height: 36px;
+}
+.contacts .chat {
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  width: 213px;
+  height: 45px;
+  border-radius: 23px;
+  background-color: #4183d7;
+  background-image: linear-gradient(78deg, #1a1fcc 0%, #b70a3b);
+}
+.contacts .chat:before {
+  content: ' ';
+  background-image: url("../img/chat-ico.png");
+  width: 24px;
+  height: 19px;
+  display: inline-block;
+  margin-right: 8px;
+  vertical-align: bottom;
+}
+.contacts .adres,
+.contacts .soc {
+  margin-top: 25px;
+}
+.contacts .ico-soc {
+  display: inline-block;
+  margin-right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: #1a1fcc;
+  border-radius: 40px;
+}
+.contacts .vk {
+  background: url("../img/vk-ico.png"), #1a1fcc;
+  background-size: 23px 12px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.contacts .fb {
+  background: url("../img/facebook-ico-min.png"), #1a1fcc;
+  background-size: 9px 20px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.contacts .ok {
+  background: url("../img/ok-ico-min.png"), #1a1fcc;
+  background-size: 13px 22px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.news_body h1 {
+  color: #c40b43;
+  font-family: "TT Norms Black";
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 55.68px;
+  text-transform: uppercase;
+  letter-spacing: 0.64;
+}
+.news_body h2 {
+  font-weight: bold;
+  font-size: 24px;
+}
+.news_body .short_discription {
+  color: #303030;
+  font-family: "TT Norms";
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+}
+.news_body .img_discription {
+  color: #bababa;
+  font-size: 14px;
+}
+.news_body .text {
+  color: #303030;
+  font-family: "TT Norms";
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  margin-top: 1rem;
+  line-height: 24px;
+}
+.news_body a {
+  color: #c40b43;
+  letter-spacing: 0.8px;
+  line-height: 24px;
+  text-decoration: underline;
+}
+.news_body a:hover {
+  text-decoration: none;
+}
+.page_no_side {
+  background-color: #ebeff4;
+}
+.personal_nav {
+  margin: 40px auto;
+  width: 455px;
+  height: 45px;
+  background-color: #d1d6dc;
+  border-radius: 23px;
+}
+.personal_nav a {
+  color: #89919b;
+  font-family: "TT Norms";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.05px;
+  text-decoration: none;
+}
+.personal_nav .left {
+  border-radius: 23px 0 0 23px;
+  width: 134px;
+  display: block;
+  text-align: center;
+  line-height: 45px;
+}
+.personal_nav .left:hover {
+  color: #fff;
+  background: blue;
+}
+.personal_nav .centr {
+  width: 122px;
+  display: block;
+  text-align: center;
+  line-height: 45px;
+}
+.personal_nav .centr:hover {
+  color: #fff;
+  background: blue;
+}
+.personal_nav .right {
+  border-radius: 0 23px 23px 0;
+  width: 199px;
+  display: block;
+  text-align: center;
+  line-height: 45px;
+}
+.personal_nav .right:hover {
+  color: #fff;
+  background: blue;
+}
+.personal_nav .active {
+  color: #ffffff;
+  background-color: #d1d6dc;
+  background-image: linear-gradient(78deg, #1a1fcc 0%, #b70a3b 100%);
+}
+.personal_content h1 {
+  color: #c40b43;
+  font-family: "TT Norms Black";
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 55.68px;
+  text-transform: uppercase;
+  letter-spacing: 0.64px;
+  text-align: center;
+}
+.personal_content .btn-new-reliable {
+  cursor: pointer;
+  outline: 0;
+  display: block;
+  width: 455px;
+  height: 45px;
+  margin: 39px auto;
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.05px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #d1d6dc;
+  background-image: linear-gradient(11deg, #202020 0%, #2212be 100%);
+}
+.personal_content .btn-new-reliable:hover {
+  background: #202020;
+  text-decoration: none;
+}
+.personal_content .table_payment {
+  box-shadow: 0 2px 30px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  margin-bottom: 99px;
+}
+.personal_content .table_payment thead {
+  text-align: center;
+  background-color: #b70a3b;
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 55.68px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+.personal_content .table_payment tbody {
+  background-color: #fff;
+  text-align: center;
+  color: #303030;
+  font-family: "TT Norms";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0.8px;
+}
+.solo_h1 {
+  color: #c40b43;
+  font-family: "TT Norms Black";
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 55.68px;
+  text-transform: uppercase;
+  letter-spacing: 0.64px;
+}
+.forgot_password {
+  color: #b70a3b;
+  font-family: "TT Norms";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 28px;
+  text-decoration: underline;
+}
+.profile-form-container {
+  margin: 40px auto;
+  max-width: 750px;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  padding: 40px 40px 24px;
+}
+.profile-form-container #profile-form {
+  margin: auto;
+}
+.profile-form-container #profile-form .error {
+  color: red;
+}
+.profile-form-container #profile-form .btn-form {
+  cursor: pointer;
+  outline: 0;
+  width: 280px;
+  margin: 30px auto;
+  border: 0;
+  display: block;
+  background: -webkit-linear-gradient(12deg, #1f24f3 0%, #d31249 100%);
+  background: -moz-linear-gradient(12deg, #1f24f3 0%, #d31249 100%);
+  background: -o-linear-gradient(12deg, #1f24f3 0%, #d31249 100%);
+  background: -ms-linear-gradient(12deg, #1f24f3 0%, #d31249 100%);
+  background: linear-gradient(78deg, #1f24f3 0%, #d31249 100%);
+  box-shadow: 0px 3px 21px 0px rgba(0, 0, 0, 0.45);
+  font-family: TT Norms;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 20px;
+}
+.profile-form-container #profile-form .btn-form:hover {
+  background: blue;
+  text-decoration: none;
+}
+.profile-form-container #profile-form .approved {
+  margin: -30px 0 10px;
+}
+.profile-form-container #profile-form .approved.false a {
+  outline: 0;
+  color: #c40a43;
+}
+.profile-form-container #profile-form .approved.true a {
+  outline: 0;
+  color: green;
+}
+.profile-partner-container {
+  margin: 40px auto;
+  max-width: 900px;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  padding: 20px 25px;
+}
+.profile-partner-container .balans p {
+  font-family: "TT Norms";
+  font-size: 30px;
+}
+.profile-partner-container .incom p {
+  color: #8d8d8d;
+  font-family: TT Norms;
+  font-size: 30px;
+}
+.profile-partner-container h2 {
+  color: #c40b43;
+  font-family: "TT Norms";
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.profile-partner-container h3 {
+  color: #c40b43;
+  font-family: "TT Norms";
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.profile-partner-container .out_money {
+  text-align: right;
+}
+.profile-partner-container .out_money button {
+  cursor: pointer;
+  outline: 0;
+  padding: 15px 20px;
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.05px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #d1d6dc;
+  background-image: linear-gradient(11deg, #202020 0%, #2212be 100%);
+}
+.profile-partner-container .out_money button:hover {
+  background: #202020;
+  text-decoration: none;
+}
+.profile-partner-container #filter-partner-stat button {
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  width: 182px;
+  height: 40px;
+  border-radius: 5px;
+  margin: 0 5px;
+  color: #ffffff;
+  background-color: #d1d6dc;
+  background-image: linear-gradient(78deg, #1a1fcc 0%, #b70a3b 100%);
+}
+.profile-partner-container #filter-partner-stat button:hover {
+  background: blue;
+  text-decoration: none;
+}
+.profile-partner-container .table_payment {
+  margin: 20px auto;
+}
+.profile-partner-container .referal_info {
+  margin: 25px 0;
+}
+.profile-partner-container .referal_info .link,
+.profile-partner-container .referal_info .send_refer_email {
+  position: relative;
+}
+.profile-partner-container .referal_info .link button,
+.profile-partner-container .referal_info .send_refer_email button {
+  cursor: pointer;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 38px;
+  width: 30%;
+  outline: 0;
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.05px;
+  border-radius: 0 5px 5px 0;
+  border: 0;
+  background-color: #d1d6dc;
+  background-image: linear-gradient(11deg, #202020 0%, #2212be 100%);
+}
+.profile-partner-container .referal_info .link button:hover,
+.profile-partner-container .referal_info .send_refer_email button:hover {
+  background: #202020;
+  text-decoration: none;
+}
+.profile-partner-container .share_row {
+  margin: 30px 0;
+}
+.profile-partner-container .ico-soc {
+  display: inline-block;
+  margin-right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: #1a1fcc;
+  border-radius: 40px;
+}
+.profile-partner-container .vk {
+  background: url("../img/vk-ico.png"), #1a1fcc;
+  background-size: 23px 12px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.profile-partner-container .fb {
+  background: url("../img/facebook-ico-min.png"), #1a1fcc;
+  background-size: 9px 20px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.profile-partner-container .ok {
+  background: url("../img/ok-ico-min.png"), #1a1fcc;
+  background-size: 13px 22px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.sendSMS {
+  outline: 0;
+  display: block;
+  width: 230px;
+  height: 40px;
+  margin: 20px auto;
+  color: #ffffff;
+  font-family: "TT Norms";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.05px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #d1d6dc;
+  background-image: linear-gradient(11deg, #202020 0%, #2212be 100%);
+}
+.sendSMS:hover {
+  background: #202020;
+  text-decoration: none;
+}
+.approval-info {
+  display: block;
+  max-width: 400px;
+  margin: 20px auto;
+  color: #303030;
+  font-family: "TT Norms";
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.8px;
+  text-align: left;
+}
+.approval-info span {
+  color: #c40b43;
+}
+#approval-form {
+  max-width: 250px;
+  margin: auto;
+}
+#approval-form .error {
+  color: red;
+}
+#approval-form .btn-form {
+  outline: 0;
+  width: 240px;
+  margin: 30px auto;
+  border: 0;
+  display: block;
+  background: -webkit-linear-gradient(12deg, #1f24f3 0%, #d31249 100%);
+  background: -moz-linear-gradient(12deg, #1f24f3 0%, #d31249 100%);
+  background: -o-linear-gradient(12deg, #1f24f3 0%, #d31249 100%);
+  background: -ms-linear-gradient(12deg, #1f24f3 0%, #d31249 100%);
+  background: linear-gradient(78deg, #1f24f3 0%, #d31249 100%);
+  box-shadow: 0px 3px 21px 0px rgba(0, 0, 0, 0.45);
+  font-family: TT Norms;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 20px;
+}
+#approval-form .btn-form:hover {
+  background: blue;
+  text-decoration: none;
+}
+.statics_page h1 {
+  color: #c40b43;
+  font-family: "TT Norms Black";
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 55.68px;
+  text-transform: uppercase;
+  letter-spacing: 0.64px;
+}
+.statics_page h2 {
+  color: #c40b43;
+  font-family: "TT Norms";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 55.68px;
+  text-transform: uppercase;
+  letter-spacing: 0.64px;
+}
+.statics_page p {
+  color: #000000;
+  font-family: "TT Norms";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+}
+.statics_page ul li {
+  list-style: none;
+  position: relative;
+}
+.statics_page ul li:before {
+  content: '•';
+  color: #c40b43;
+  position: absolute;
+  left: -20px;
+  font-size: 33px;
+  top: -18px;
+}
+.statics_page li {
+  color: #000000;
+  font-family: "TT Norms";
+  font-size: 16px;
+  font-weight: 300;
+}
+.statics_page a {
+  color: #c40b43;
+}
+#withdrawal_request .help-block-error {
+  color: red;
+}
+#withdrawal_request .btn-form {
+  outline: 0;
+  width: 280px;
+  margin: 30px auto;
+  border: 0;
+  display: block;
+  background: -webkit-linear-gradient(12deg, #1f24f3 0%, #d31249 100%);
+  background: -moz-linear-gradient(12deg, #1f24f3 0%, #d31249 100%);
+  background: -o-linear-gradient(12deg, #1f24f3 0%, #d31249 100%);
+  background: -ms-linear-gradient(12deg, #1f24f3 0%, #d31249 100%);
+  background: linear-gradient(78deg, #1f24f3 0%, #d31249 100%);
+  box-shadow: 0px 3px 21px 0px rgba(0, 0, 0, 0.45);
+  font-family: TT Norms;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 20px;
+}
+#withdrawal_request .btn-form:hover {
+  background: blue;
+  text-decoration: none;
+}
+.disable_link {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.4;
+  background: gray !important;
+}
+.side_news .item {
+  padding-top: 30px;
+}
+.side_news .start {
+  margin-top: 10px;
+}
+.side_news img {
+  max-width: 100%;
+}
+.pay_method {
+  text-align: center;
+}
+.pay_method img {
+  width: 120px;
+  height: 100px;
+  margin-bottom: 30px;
+}
+.slide2-wiget {
+  background: none !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  min-height: 0px !important;
+}
+.slide2-wiget .sell-proffit {
+  color: white;
+}
+.slide2-wiget .cont .h {
+  font-size: 12px !important;
+}
+.slide2-wiget .time_live {
+  display: inline-block !important;
+}
